@@ -1,0 +1,20 @@
+{
+  "todos": {
+    "Coordinator": {
+      "1": {
+        "id": "1",
+        "content": "研究 Solana NFT 开发文档和技术要求",
+        "details": "1. 深入研究提供的 Solana 官方文档\n2. 了解 Metaplex Token Metadata 程序\n3. 研究 Solana NFT 创建和上传机制\n4. 调查适合的 Solana 钱包集成方案（注：Solana 生态通常使用 Phantom、Solflare 等专用钱包，而非 MetaMask）",
+        "status": "pending",
+        "priority": "high"
+      },
+      "2": {
+        "id": "2",
+        "content": "构建 Solana NFT 上传 dapp",
+        "details": "1. 设计用户界面，支持钱包连接和 NFT 上传\n2. 实现 Solana 钱包连接功能（推荐使用 Phantom 等 Solana 专用钱包）\n3. 集成 Metaplex SDK 实现 NFT 创建和上传\n4. 配置连接到 Solana 测试网\n5. 实现文件上传和元数据处理\n6. 添加详细的代码注释和错误处理\n7. 进行功能测试",
+        "status": "pending",
+        "priority": "high"
+      }
+    }
+  }
+}
