@@ -1,0 +1,44 @@
+
+> react_repo@0.0.0 build /workspace/solana-nft-manager
+> yes | pnpm install && rm -rf node_modules/.vite-temp && tsc -b && vite build
+
+Lockfile is up to date, resolution step is skipped
+Already up to date
+
+╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: bigint-buffer, blake-hash, bufferutil, esbuild,     │
+│   keccak, protobufjs, secp256k1, tiny-secp256k1, usb, utf-8-validate.        │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Done in 1s using pnpm v10.12.4
+vite v6.2.6 building for production...
+transforming (1) src/main.tsxtransforming (5) node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/reatransforming (7) node_modules/.pnpm/@solana+wallet-adapter-react@0.15.39_@stransforming (10) node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/retransforming (36) node_modules/.pnpm/lucide-react@0.364.0_react@18.3.1/nodetransforming (135) node_modules/.pnpm/lucide-react@0.364.0_react@18.3.1/nodtransforming (378) node_modules/.pnpm/lucide-react@0.364.0_react@18.3.1/nodtransforming (538) node_modules/.pnpm/lucide-react@0.364.0_react@18.3.1/nodtransforming (838) node_modules/.pnpm/lucide-react@0.364.0_react@18.3.1/nodtransforming (1138) node_modules/.pnpm/lucide-react@0.364.0_react@18.3.1/notransforming (1438) node_modules/.pnpm/lucide-react@0.364.0_react@18.3.1/notransforming (1540) node_modules/.pnpm/scheduler@0.23.2/node_modules/schedutransforming (1563) node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_mtransforming (1614) node_modules/.pnpm/@noble+hashes@1.8.0/node_modules/@notransforming (1716) node_modules/.pnpm/@wallet-standard+features@1.1.0/nodetransforming (1742) node_modules/.pnpm/@wallet-standard+features@1.1.0/nodetransforming (1779) node_modules/.pnpm/@solana+spl-token@0.4.13_@solana+webtransforming (1845) node_modules/.pnpm/qrcode@1.5.4/node_modules/qrcode/libtransforming (1878) node_modules/.pnpm/@solana+wallet-standard-util@1.1.2/ntransforming (1911) node_modules/.pnpm/@solana+wallet-standard-chains@1.1.1transforming (1956) node_modules/.pnpm/@solana+wallet-standard-util@1.1.2/ntransforming (2001) node_modules/.pnpm/@trezor+connect@9.6.2_@solana+sysvartransforming (2087) node_modules/.pnpm/@trezor+connect@9.6.2_@solana+sysvartransforming (2093) node_modules/.pnpm/semver@7.7.1/node_modules/semver/funtransforming (2114) node_modules/.pnpm/crypto-js@4.2.0/node_modules/crypto-transforming (2138) node_modules/.pnpm/crypto-js@4.2.0/node_modules/crypto-[plugin vite:resolve] Module "crypto" has been externalized for browser compatibility, imported by "/workspace/solana-nft-manager/node_modules/.pnpm/@toruslabs+eccrypto@4.0.0/node_modules/@toruslabs/eccrypto/dist/eccrypto.esm.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+transforming (2205) node_modules/.pnpm/@reown+appkit@1.7.2_@react-native-astransforming (2267) node_modules/.pnpm/viem@2.23.2_bufferutil@4.0.9_typescrtransforming (2384) node_modules/.pnpm/@trezor+connect@9.6.2_@solana+sysvartransforming (2420) node_modules/.pnpm/semver@7.7.1/node_modules/semver/inttransforming (2478) node_modules/.pnpm/semver@7.7.1/node_modules/semver/rantransforming (2531) node_modules/.pnpm/@reown+appkit-controllers@1.7.2_@reatransforming (2671) node_modules/.pnpm/viem@2.33.3_bufferutil@4.0.9_typescrtransforming (2932) node_modules/.pnpm/viem@2.33.3_bufferutil@4.0.9_typescrtransforming (3171) node_modules/.pnpm/minimalistic-crypto-utils@1.0.1/nodetransforming (3263) node_modules/.pnpm/viem@2.23.2_bufferutil@4.0.9_typescrtransforming (3428) node_modules/.pnpm/@keystonehq+bc-ur-registry@0.7.0/nodtransforming (3467) node_modules/.pnpm/@noble+hashes@1.8.0/node_modules/@notransforming (3544) node_modules/.pnpm/rxjs@6.6.7/node_modules/rxjs/_esm5/itransforming (3621) node_modules/.pnpm/@reown+appkit@1.7.2_@react-native-astransforming (3656) node_modules/.pnpm/viem@2.23.2_bufferutil@4.0.9_typescrtransforming (3683) node_modules/.pnpm/viem@2.23.2_bufferutil@4.0.9_typescr[plugin vite:resolve] Module "stream" has been externalized for browser compatibility, imported by "/workspace/solana-nft-manager/node_modules/.pnpm/cipher-base@1.0.6/node_modules/cipher-base/index.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+transforming (3726) node_modules/.pnpm/rxjs@6.6.7/node_modules/rxjs/_esm5/itransforming (3830) node_modules/.pnpm/@reown+appkit-scaffold-ui@1.7.2_@reatransforming (3950) node_modules/.pnpm/viem@2.33.3_bufferutil@4.0.9_typescrtransforming (4032) node_modules/.pnpm/@sinclair+typebox@0.33.22/node_modultransforming (4054) node_modules/.pnpm/@sinclair+typebox@0.33.22/node_modultransforming (4093) node_modules/.pnpm/multiformats@9.9.0/node_modules/mult[plugin vite:resolve] Module "stream" has been externalized for browser compatibility, imported by "/workspace/solana-nft-manager/node_modules/.pnpm/hash-base@3.0.5/node_modules/hash-base/index.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+transforming (4165) node_modules/.pnpm/es-errors@1.3.0/node_modules/es-errotransforming (4283) node_modules/.pnpm/viem@2.33.3_bufferutil@4.0.9_typescrnode_modules/.pnpm/ox@0.6.7_typescript@5.6.3_zod@3.24.2/node_modules/ox/_esm/core/Address.js (6:21): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/.pnpm/ox@0.6.7_typescript@5.6.3_zod@3.24.2/node_modules/ox/_esm/core/Address.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/ox@0.6.7_typescript@5.6.3_zod@3.24.2/node_modules/ox/_esm/core/internal/cursor.js (2:21): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/.pnpm/ox@0.6.7_typescript@5.6.3_zod@3.24.2/node_modules/ox/_esm/core/internal/cursor.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+transforming (4407) node_modules/.pnpm/@trezor+env-utils@1.4.2_react-nativetransforming (4542) node_modules/.pnpm/@sinclair+typebox@0.33.22/node_modultransforming (4642) node_modules/.pnpm/@reown+appkit-ui@1.7.2_@react-nativetransforming (4785) node_modules/.pnpm/@trezor+connect@9.6.2_@solana+sysvartransforming (4848) node_modules/.pnpm/object-is@1.1.6/node_modules/object-transforming (5279) node_modules/.pnpm/@reown+appkit-ui@1.7.2_@react-nativetransforming (5359) node_modules/.pnpm/qrcode@1.5.3/node_modules/qrcode/libnode_modules/.pnpm/@protobufjs+inquire@1.1.0/node_modules/@protobufjs/inquire/index.js (12:18): Use of eval in "node_modules/.pnpm/@protobufjs+inquire@1.1.0/node_modules/@protobufjs/inquire/index.js" is strongly discouraged as it poses security risks and may cause issues with minification.
+✓ 5520 modules transformed.
+transforming (5523) node_modules/.pnpm/@metaplex-foundation+umi@1.2.0/node_transforming (5569) node_modules/.pnpm/@metaplex-foundation+umi@1.2.0/node_transforming (5658) node_modules/.pnpm/@metaplex-foundation+umi-serializerstransforming (5662) node_modules/.pnpm/@metaplex-foundation+mpl-toolbox@0.1transforming (5666) node_modules/.pnpm/@metaplex-foundation+umi-serializerstransforming (5766) node_modules/.pnpm/@metaplex-foundation+mpl-token-metadtransforming (5927) node_modules/.pnpm/@metaplex-foundation+mpl-toolbox@0.1Generated an empty chunk: "metaplex".
+rendering chunks (1)...rendering chunks (2)...rendering chunks (3)...rendering chunks (4)...rendering chunks (5)...rendering chunks (6)...rendering chunks (7)...computing gzip size (0)...computing gzip size (1)...computing gzip size (2)...computing gzip size (3)...computing gzip size (4)...computing gzip size (5)...computing gzip size (6)...computing gzip size (7)...computing gzip size (8)...computing gzip size (9)...dist/index.html                     0.50 kB │ gzip:   0.29 kB
+dist/assets/index-CBhauzyT.css     29.76 kB │ gzip:   6.12 kB
+dist/assets/metaplex-l0sNRNKZ.js    0.00 kB │ gzip:   0.02 kB
+dist/assets/v4-CtRu48qb.js          0.81 kB │ gzip:   0.43 kB
+dist/assets/index-C8oLJIQx.js      12.31 kB │ gzip:   3.50 kB
+dist/assets/index-Bk4GVoW3.js      28.99 kB │ gzip:   5.87 kB
+dist/assets/index-j-yR-2gR.js     142.11 kB │ gzip:  24.97 kB
+dist/assets/vendor-Cs8wUaRe.js    142.23 kB │ gzip:  45.57 kB
+dist/assets/solana-BdEZeCXy.js    520.18 kB │ gzip: 154.36 kB
+✓ built in 10.23s

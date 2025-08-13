@@ -1,0 +1,158 @@
+
+> react_repo@0.0.0 build /workspace/solana-nft-manager
+> yes | pnpm install && rm -rf node_modules/.vite-temp && tsc -b && vite build
+
+? The modules directory at "/workspace/solana-nft-manager/node_modules" will be removed and reinstalled from scratch. Proceed? (Y/n) ‣ true✔ The modules directory at "/workspace/solana-nft-manager/node_modules" will be removed and reinstalled from scratch. Proceed? (Y/n) · true
+
+Recreating /workspace/solana-nft-manager/node_modules
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +1443
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 1443, reused 0, downloaded 0, added 0
+Progress: resolved 1443, reused 23, downloaded 0, added 0
+4295Progress: resolved 1443, reused 244, downloaded 0, added 0
+478817Progress: resolved 1443, reused 1000, downloaded 0, added 0
+117229386Progress: resolved 1443, reused 1438, downloaded 0, added 17
+Progress: resolved 1443, reused 1438, downloaded 0, added 150
+32615892Progress: resolved 1443, reused 1438, downloaded 0, added 1075
+10602343878440Progress: resolved 1443, reused 1438, downloaded 0, added 1443, done
+
+dependencies:
++ @hookform/resolvers 3.10.0
++ @metaplex-foundation/mpl-core 1.6.0
++ @metaplex-foundation/mpl-token-metadata 3.4.0
++ @metaplex-foundation/umi 1.2.0
++ @metaplex-foundation/umi-bundle-defaults 1.2.0
++ @metaplex-foundation/umi-uploader-irys 1.2.0
++ @radix-ui/react-accordion 1.2.4
++ @radix-ui/react-alert-dialog 1.1.7
++ @radix-ui/react-aspect-ratio 1.1.3
++ @radix-ui/react-avatar 1.1.4
++ @radix-ui/react-checkbox 1.1.5
++ @radix-ui/react-collapsible 1.1.4
++ @radix-ui/react-context-menu 2.2.7
++ @radix-ui/react-dialog 1.1.7
++ @radix-ui/react-dropdown-menu 2.1.7
++ @radix-ui/react-hover-card 1.1.7
++ @radix-ui/react-label 2.1.3
++ @radix-ui/react-menubar 1.1.7
++ @radix-ui/react-navigation-menu 1.2.6
++ @radix-ui/react-popover 1.1.7
++ @radix-ui/react-progress 1.1.3
++ @radix-ui/react-radio-group 1.2.4
++ @radix-ui/react-scroll-area 1.2.4
++ @radix-ui/react-select 2.1.7
++ @radix-ui/react-separator 1.1.3
++ @radix-ui/react-slider 1.2.4
++ @radix-ui/react-slot 1.2.0
++ @radix-ui/react-switch 1.1.4
++ @radix-ui/react-tabs 1.1.4
++ @radix-ui/react-toast 1.2.7
++ @radix-ui/react-toggle 1.1.3
++ @radix-ui/react-toggle-group 1.1.3
++ @radix-ui/react-tooltip 1.2.0
++ @solana/spl-token 0.4.13
++ @solana/wallet-adapter-base 0.9.27
++ @solana/wallet-adapter-react 0.15.39
++ @solana/wallet-adapter-react-ui 0.9.39
++ @solana/wallet-adapter-wallets 0.19.37
++ @solana/web3.js 1.98.4
++ @types/react-window 1.8.8
++ class-variance-authority 0.7.1
++ clsx 2.1.1
++ cmdk 1.0.0
++ date-fns 3.6.0
++ embla-carousel-react 8.6.0
++ input-otp 1.4.2
++ lucide-react 0.364.0
++ next-themes 0.4.6
++ react 18.3.1
++ react-day-picker 8.10.1
++ react-dom 18.3.1
++ react-hook-form 7.55.0
++ react-resizable-panels 2.1.7
++ react-router-dom 6.30.0
++ react-window 1.8.11
++ react-window-infinite-loader 1.0.10
++ recharts 2.15.2
++ sonner 1.7.4
++ tailwind-merge 2.6.0
++ tailwindcss-animate 1.0.7
++ vaul 1.1.2
++ zod 3.24.2
+
+devDependencies:
++ @eslint/js 9.24.0
++ @types/node 22.14.1
++ @types/react 18.3.20
++ @types/react-dom 18.3.6
++ @types/react-router-dom 5.3.3
++ @vitejs/plugin-react 4.3.4
++ autoprefixer 10.4.20
++ eslint 9.24.0
++ eslint-plugin-react-hooks 5.2.0
++ eslint-plugin-react-refresh 0.4.19
++ globals 15.15.0
++ postcss 8.4.49
++ tailwindcss 3.4.16
++ typescript 5.6.3
++ typescript-eslint 8.29.1
++ vite 6.2.6
++ vite-plugin-source-info 1.0.0
+
+╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: bigint-buffer, blake-hash, bufferutil, esbuild,     │
+│   keccak, protobufjs, secp256k1, tiny-secp256k1, usb, utf-8-validate.        │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Done in 10s using pnpm v10.12.4
+src/components/NFTGallery.tsx:3:21 - error TS2724: '"@solana/web3.js"' has no exported member named 'TOKEN_PROGRAM_ID'. Did you mean 'VOTE_PROGRAM_ID'?
+
+3 import { PublicKey, TOKEN_PROGRAM_ID } from '@solana/web3.js';
+                      ~~~~~~~~~~~~~~~~
+
+src/components/NFTGallery.tsx:5:10 - error TS2305: Module '"lucide-react"' has no exported member 'Gallery'.
+
+5 import { Gallery, Image as ImageIcon, ExternalLink, Loader } from 'lucide-react';
+           ~~~~~~~
+
+src/components/NFTGallery.tsx:229:35 - error TS2339: Property 'u64' does not exist on type 'typeof import("/workspace/solana-nft-manager/node_modules/.pnpm/@solana+spl-token@0.4.13_@solana+web3.js@1.98.4_bufferutil@4.0.9_typescript@5.6.3_utf-8_401b984bcc0de2faeac11efdbe0913df/node_modules/@solana/spl-token/lib/types/index")'.
+
+229           const amount = SPLToken.u64.fromBuffer(accountInfo.amount);
+                                      ~~~
+
+src/components/NFTGallery.tsx:232:38 - error TS2339: Property 'u64' does not exist on type 'typeof import("/workspace/solana-nft-manager/node_modules/.pnpm/@solana+spl-token@0.4.13_@solana+web3.js@1.98.4_bufferutil@4.0.9_typescript@5.6.3_utf-8_401b984bcc0de2faeac11efdbe0913df/node_modules/@solana/spl-token/lib/types/index")'.
+
+232           if (amount.eq(new SPLToken.u64(1))) {
+                                         ~~~
+
+src/components/Navigation.tsx:5:3 - error TS2305: Module '"lucide-react"' has no exported member 'Gallery'.
+
+5   Gallery,
+    ~~~~~~~
+
+src/components/TransactionHistory.tsx:148:39 - error TS2769: No overload matches this call.
+  Overload 1 of 2, '(signature: string, rawConfig?: GetTransactionConfig): Promise<TransactionResponse>', gave the following error.
+    Object literal may only specify known properties, and 'maxSupportedTransactionVersion' does not exist in type 'GetTransactionConfig'.
+  Overload 2 of 2, '(signature: string, rawConfig: GetVersionedTransactionConfig): Promise<VersionedTransactionResponse>', gave the following error.
+    Object literal may only specify known properties, and 'encoding' does not exist in type 'GetVersionedTransactionConfig'.
+
+148       const txInfo = await connection.getTransaction(signature, {
+                                          ~~~~~~~~~~~~~~
+
+
+src/components/TransactionHistory.tsx:179:18 - error TS2367: This comparison appears to be unintentional because the types 'PublicKey' and 'string' have no overlap.
+
+179           return programId === 'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA';
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Found 7 errors.
+
+ ELIFECYCLE  Command failed with exit code 2.

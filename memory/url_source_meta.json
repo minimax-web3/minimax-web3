@@ -1,0 +1,114 @@
+{
+  "_source_id": 15,
+  "sources": {
+    "Solana Dapp双钱包集成研究": {
+      "https://docs.phantom.com/solana/integrating-phantom": {
+        "id": 1,
+        "publisher": "Phantom",
+        "url": "https://docs.phantom.com/solana/integrating-phantom",
+        "title": "Phantom Solana Integration Documentation",
+        "info": "Phantom钱包官方集成文档，提供了两种主要集成方法：直接集成（window.phantom）和Solana Wallet Adapter"
+      },
+      "https://github.com/anza-xyz/wallet-adapter": {
+        "id": 2,
+        "publisher": "Anza (Solana Labs)",
+        "url": "https://github.com/anza-xyz/wallet-adapter",
+        "title": "Solana Wallet Adapter Library",
+        "info": "Solana官方wallet adapter项目，包含模块化TypeScript钱包适配器和组件，支持多种Solana钱包，具有1.9k stars"
+      },
+      "https://solana.com/developers/cookbook/wallets/connect-wallet-react": {
+        "id": 3,
+        "publisher": "Solana Foundation",
+        "url": "https://solana.com/developers/cookbook/wallets/connect-wallet-react",
+        "title": "How to Connect a Wallet with React",
+        "info": "官方Solana React钱包连接指南，包含详细的代码示例和配置方法，基于wallet-adapter库"
+      },
+      "https://docs.metamask.io/wallet/how-to/use-non-evm-networks/solana/": {
+        "id": 4,
+        "publisher": "MetaMask",
+        "url": "https://docs.metamask.io/wallet/how-to/use-non-evm-networks/solana/",
+        "title": "MetaMask Solana Integration Documentation",
+        "info": "MetaMask官方Solana集成文档，介绍了通过Wallet Standard和第三方库与Solana dApp交互的方法"
+      },
+      "https://metamask.io/news/solana-on-metamask-sol-wallet": {
+        "id": 5,
+        "publisher": "MetaMask",
+        "url": "https://metamask.io/news/solana-on-metamask-sol-wallet",
+        "title": "Solana on MetaMask",
+        "info": "2025年5月MetaMask正式宣布集成Solana网络，用户可以发送、接收、交换和购买Solana代币"
+      }
+    },
+    "NFT 展示和交易历史功能研究": {
+      "https://developers.metaplex.com/das-api/guides/get-collection-nfts": {
+        "id": 6,
+        "publisher": "Metaplex Foundation",
+        "url": "https://developers.metaplex.com/das-api/guides/get-collection-nfts",
+        "title": "Get All Tokens in a Collection | DAS API Guides",
+        "info": "详细介绍了 Metaplex DAS API 的使用方法，包括 'Get Assets By Group' 等推荐方法来获取 NFT 收藏，以及分页、缓存、排序等最佳实践"
+      },
+      "https://blogs.shyft.to/comparing-nft-read-apis-in-solana-7817a562dd66": {
+        "id": 7,
+        "publisher": "SHYFT",
+        "url": "https://blogs.shyft.to/comparing-nft-read-apis-in-solana-7817a562dd66",
+        "title": "Comparing NFT read APIs in Solana",
+        "info": "深入对比了 Solana 上主要 NFT API 服务商（Helius、SHYFT、Moralis、Unmarshal、Tatum）的性能特点，SHYFT 在响应速度（50-80ms）和数据完整性方面表现突出"
+      },
+      "https://solana.com/docs/rpc/http/gettransaction": {
+        "id": 8,
+        "publisher": "Solana Labs",
+        "url": "https://solana.com/docs/rpc/http/gettransaction",
+        "title": "getTransaction RPC Method",
+        "info": "提供了 Solana getTransaction RPC 方法的完整技术文档，包括参数说明、响应格式和使用示例，是查询交易详情的核心方法"
+      },
+      "https://blog.thirdweb.com/guides/how-to-render-nft-metadata-in-a-react-app-using-thirdwebnftmedia/": {
+        "id": 9,
+        "publisher": "Thirdweb",
+        "url": "https://blog.thirdweb.com/guides/how-to-render-nft-metadata-in-a-react-app-using-thirdwebnftmedia/",
+        "title": "How to Render NFT Metadata In a React App",
+        "info": "详细指导了如何在 React 应用中使用 ThirdwebNftMedia 组件渲染 NFT 元数据，包括自动识别不同类型 NFT（图片、视频、音频）的最佳实践"
+      },
+      "https://hackernoon.com/optimizing-nft-experiences-insights-from-performance-and-usability-studies": {
+        "id": 10,
+        "publisher": "HackerNoon",
+        "url": "https://hackernoon.com/optimizing-nft-experiences-insights-from-performance-and-usability-studies",
+        "title": "Optimizing NFT Experiences: Insights from Performance & Usability Studies",
+        "info": "通过实际案例分析了 NFT 用户体验优化策略，包括 AI 图像生成性能（4.9秒）、区块链铸币性能（16.9秒）以及可用性研究的详细数据"
+      },
+      "https://medium.com/@caruso71tianna/solana-how-to-overcome-the-1000-transaction-limit-using-getsignaturesforaddress-e5a2f4add3d2": {
+        "id": 11,
+        "publisher": "Chainstack",
+        "url": "https://medium.com/@caruso71tianna/solana-how-to-overcome-the-1000-transaction-limit-using-getsignaturesforaddress-e5a2f4add3d2",
+        "title": "Solana: How to overcome the 1000 transaction limit using getSignaturesForAddress",
+        "info": "详细介绍了如何使用 getSignaturesForAddress 方法克服 Solana 1000 个交易限制，包括分页机制（before/until 参数）、递归查询和性能优化策略"
+      },
+      "https://dev.to/truongpx396/how-popular-nft-marketplaces-optimize-their-performance-4f1m": {
+        "id": 12,
+        "publisher": "DEV Community",
+        "url": "https://dev.to/truongpx396/how-popular-nft-marketplaces-optimize-their-performance-4f1m",
+        "title": "How Popular NFT Marketplaces Optimize Their Performance",
+        "info": "深入分析了主流 NFT 市场（OpenSea、Blur、Rarible）的性能优化策略，涵盖链下订单管理、智能合约优化、Layer 2 解决方案等"
+      },
+      "https://medium.com/@swatikpl44/virtual-scrolling-in-react-6028f700da6b": {
+        "id": 13,
+        "publisher": "Medium",
+        "url": "https://medium.com/@swatikpl44/virtual-scrolling-in-react-6028f700da6b",
+        "title": "Virtual Scrolling in React",
+        "info": "深入讲解了 React 虚拟滚动技术（窗口化）的原理和实现方法，包括 react-window 和 react-virtualized 库的使用，以及性能优化技巧"
+      },
+      "https://blog.scaleflex.com/image-optimization-for-nfts/": {
+        "id": 14,
+        "publisher": "Scaleflex",
+        "url": "https://blog.scaleflex.com/image-optimization-for-nfts/",
+        "title": "Improve NFT Delivery Speeds With Image Optimization and CDN",
+        "info": "提供了 NFT 图像优化和 CDN 加速的专业指导，包括 WebP/AVIF 格式、延迟加载、响应式交付等最佳实践"
+      },
+      "https://yihau.github.io/solana-web3-demo/advanced/token/get-all-token-account-by-owner": {
+        "id": 15,
+        "publisher": "Solana Web3 Demo",
+        "url": "https://yihau.github.io/solana-web3-demo/advanced/token/get-all-token-account-by-owner",
+        "title": "Get All Token Account By Owner | Solana Web3 Example",
+        "info": "展示了如何使用 Solana Web3.js 的 getTokenAccountsByOwner 方法获取用户的所有代币账户（包括 NFT），包括完整的代码示例"
+      }
+    }
+  }
+}

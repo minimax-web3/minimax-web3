@@ -1,0 +1,77 @@
+Progress: resolved 0, reused 1, downloaded 0, added 0
+6, reused 6Progress: resolved 24, reused 23, downloaded 0, added 0
+65, reused 677, reused 65, downloaded 3Progress: resolved 108, reused 95, downloaded 10, added 0
+Progress: resolved 218, reused 205, downloaded 10, added 0
+323, reused 307, downloaded 12436, reused 397, downloaded 1753, reused 397, downloaded 4190, reused 401, downloaded 68518, reused 401, downloaded 97Progress: resolved 593, reused 404, downloaded 129, added 0
+622, reused 404, downloaded 16045, reused 404, downloaded 18167, reused 408, downloaded 20488, reused 408, downloaded 225721, reused 409, downloaded 24845, reused 410, downloaded 27468, reused 410, downloaded 29184, reused 410, downloaded 30299, reused 410, downloaded 326828, reused 413, downloaded 35143, reused 413, downloaded 36765, reused 413, downloaded 38493, reused 415, downloaded 405919, reused 415, downloaded 42951, reused 415, downloaded 45874, reused 415, downloaded 48582, reused 415, downloaded 500Progress: resolved 1002, reused 415, downloaded 515, added 0
+8, reused 415, downloaded 52412, reused 415, downloaded 53226, reused 415, downloaded 54040, reused 418, downloaded 55354, reused 418, downloaded 5683, reused 418, downloaded 588102, reused 418, downloaded 61444, reused 418, downloaded 65057, reused 418, downloaded 67177, reused 418, downloaded 68297, reused 418, downloaded 70510Downloading sodium-native@4.3.3: 0.00 B/5.76 MB
+Downloading sodium-native@4.3.3: 15.78 kB/5.76 MB
+205, reused 418, downloaded 7327, reused 418, downloaded 7456Downloading sodium-native@4.3.3: 5.76 MB/5.76 MB, done
+Progress: resolved 1207, reused 418, downloaded 746, added 0
+8, reused 418, downloaded 74710, reused 418, downloaded 7482, reused 418, downloaded 7515, reused 418, downloaded 7546Downloading react-native@0.81.0: 0.00 B/24.76 MB
+Downloading react-native@0.81.0: 15.78 kB/24.76 MB
+40, reused 418, downloaded 7726, reused 418, downloaded 778Downloading react-native@0.81.0: 24.76 MB/24.76 MB, done
+Progress: resolved 1246, reused 418, downloaded 778, added 0
+58, reused 418, downloaded 79382, reused 418, downloaded 809301, reused 418, downloaded 83345, reused 418, downloaded 86685, reused 418, downloaded 917403, reused 418, downloaded 9405, reused 418, downloaded 94326, reused 418, downloaded 94656, reused 418, downloaded 983Progress: resolved 1479, reused 418, downloaded 1015, added 0
+ WARN  6 deprecated subdependencies found: @toruslabs/solana-embed@2.1.0, glob@7.2.3, inflight@1.0.6, lodash.isequal@4.5.0, rimraf@3.0.2, uuidv4@6.2.13
+Progress: resolved 1479, reused 418, downloaded 1015, added 0
+80, reused 418, downloaded 1017Packages: +1027
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 1480, reused 418, downloaded 1017, added 0
+Progress: resolved 1480, reused 418, downloaded 1019, added 28
+Progress: resolved 1480, reused 418, downloaded 1019, added 355
+504699786859992Progress: resolved 1480, reused 418, downloaded 1019, added 1027, done
+ WARN  Issues with peer dependencies found
+.
+├─┬ react-native 0.81.0
+│ ├── ✕ unmet peer @types/react@^19.1.0: found 18.3.20
+│ ├── ✕ unmet peer react@^19.1.0: found 18.3.1
+│ └─┬ @react-native/virtualized-lists 0.81.0
+│   └── ✕ unmet peer @types/react@^19.1.0: found 18.3.20
+├─┬ @solana/wallet-adapter-wallets 0.19.37
+│ ├─┬ @solana/wallet-adapter-keystone 0.1.19
+│ │ └─┬ @keystonehq/sol-keyring 0.20.0
+│ │   └─┬ @keystonehq/sdk 0.19.2
+│ │     ├─┬ react-qr-reader 2.2.1
+│ │     │ ├── ✕ unmet peer react@~16: found 18.3.1
+│ │     │ └── ✕ unmet peer react-dom@~16: found 18.3.1
+│ │     └─┬ qrcode.react 1.0.1
+│ │       └── ✕ unmet peer react@"^15.5.3 || ^16.0.0 || ^17.0.0": found 18.3.1
+│ └─┬ @solana/wallet-adapter-particle 0.1.16
+│   └─┬ @particle-network/solana-wallet 1.3.2
+│     └── ✕ unmet peer bs58@^4.0.1: found 5.0.0
+├─┬ @solana/wallet-adapter-react 0.15.39
+│ └─┬ @solana/wallet-standard-wallet-adapter-react 1.1.4
+│   └─┬ @solana/wallet-standard-wallet-adapter-base 1.1.4
+│     └── ✕ unmet peer bs58@^6.0.0: found 5.0.0
+└─┬ @metaplex-foundation/umi-bundle-defaults 1.2.0
+  └─┬ @metaplex-foundation/umi-eddsa-web3js 1.1.1
+    ├── ✕ unmet peer @metaplex-foundation/umi@1.1.1: found 1.2.0
+    └─┬ @metaplex-foundation/umi-web3js-adapters 1.1.1
+      └── ✕ unmet peer @metaplex-foundation/umi@1.1.1: found 1.2.0
+
+dependencies:
++ @metaplex-foundation/mpl-core 1.6.0
++ @metaplex-foundation/mpl-token-metadata 3.4.0
++ @metaplex-foundation/umi 1.2.0
++ @metaplex-foundation/umi-bundle-defaults 1.2.0
++ @metaplex-foundation/umi-uploader-irys 1.2.0
++ @solana/spl-token 0.4.13
++ @solana/wallet-adapter-base 0.9.27
++ @solana/wallet-adapter-react 0.15.39
++ @solana/wallet-adapter-react-ui 0.9.39
++ @solana/wallet-adapter-wallets 0.19.37
++ @solana/web3.js 1.98.4
++ react-window 1.8.11
++ react-window-infinite-loader 1.0.10
+
+╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: bigint-buffer, blake-hash, bufferutil, keccak,      │
+│   protobufjs, secp256k1, tiny-secp256k1, usb, utf-8-validate.                │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Done in 17.7s using pnpm v10.12.4
